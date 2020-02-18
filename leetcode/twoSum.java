@@ -11,7 +11,7 @@ public class MyClass{
     }
     
     static int[] twoSum(int[] nums, int goal){
-        */
+        /*
         *  This solution is just me studying a popular and pretty slick solution
         *  available out there, instead of traversing the array a number of times 
         *  you create a HashMap, you store the remainder from substracting the value
@@ -19,7 +19,8 @@ public class MyClass{
         *  also every iteration checks if the HashMap already contains a key that is 
         *  the value of the integer at that position in the array, effectively finding
         *  the solution to the problem in o(1) time 
-        /*
+        */
+        
         Map<Integer, Integer> cuenta = new HashMap<Integer, Integer>();
         int size = nums.length;
         for(int i = 0; i <= size; i++){
